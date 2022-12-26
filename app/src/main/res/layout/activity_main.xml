@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        android:scaleType="centerCrop"
+        app:layout_constraintVertical_bias="1"
+        android:src="@drawable/landingimage"
+        android:alpha=".3"
+        />
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who are you??"
+        android:textStyle="italic|bold"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".8"/>
+
+    <Button
+        android:id="@+id/serverbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Server"
+        android:layout_marginTop="35dp"
+        android:onClick="gotoserver"
+        app:layout_constraintTop_toBottomOf="@+id/producerbtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/producerbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:text="Producer"
+        android:onClick="gotoproducer"
+        android:paddingHorizontal="50dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/maintext"
+        app:layout_constraintVertical_bias="0.5"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/black"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464590025828",
+    "project_id": "food-track-fd3c1",
+    "storage_bucket": "food-track-fd3c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464590025828:android:e0efc65020a52a47c91b71",
+        "android_client_info": {
+          "package_name": "com.example.food_track"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464590025828-dasafileehpchjpp960nadeih1sosig7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXIuKOrKrVaxgIbq1-2ci-qtn1mqpGdCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464590025828-dasafileehpchjpp960nadeih1sosig7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
